@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans";
+}
+.header {
+  background-image: url("../style/images/banner2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #444343;
+}
+.header-conintainer {
+  display: block;
+}
+.cointainer-title {
+  text-align: right;
+  font-size: 33px;
+  color: var(--Dark-01, #151414);
+  margin: 0px 230px 0 865px;
+}
+.cointainer-description {
+  color: var(--Dark-02, #444343);
+  text-align: right;
+  font-size: 16px;
+  margin: 24px 230px 0 865px;
+}
+.btn-primary {
+  border: 5px solid #f15b22;
+  background: #f15b22;
+  width: 160px;
+  height: 64px;
+  float: right;
+  margin-top: 32px;
+  margin-right: 230px;
+  color: #fff;
+  font-size: 20px;
+}
+main {
+  width: 85vw;
+  margin: 0 auto;
+  color: #444343;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.banner-image {
+  text-align: left;
+}
+.banner-description {
+  margin-left: 135px;
+}
+.banner-description .banner-heading {
+  font-size: 40px;
+  margin-top: 230px;
+  color: var(--Dark-01, #151414);
+}
+.banner-description p {
+  color: var(--Dark-02, #444343);
+  font-size: 20px;
+  margin-top: 24px;
+}
+.banner-description ul {
+  list-style: none;
+  margin-top: 15px;
+  padding-top: 8px;
+}
+.banner-description ul li:before {
+  content: "✓";
+  color: rgb(6, 255, 6);
+}
+.banner-plan {
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  text-align: center;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.skill-description .skill-title {
+    color: var(--Dark-01, #151414);
+text-align: center;
+font-size: 30px;
+margin-top: 24px;
+
+}
+.skill-description .skill-about{
+    color: var(--Dark-03, #737272);
+text-align: center;
+font-size: 25px;
+margin-top: 16px;
+}
+.watch-img{
+    background-image: url('../style/images/watch.png');
+    background-repeat: no-repeat;
+    margin-top: 130px; 
+    position: static;
+}
+.footer{
+     background: var(--Dark-01, #151414); */
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+.footer-column{
+    margin-top: 130px;
+    width: 50%;
+    margin-left: 100px;
+    display: block;
+    color: #FFF;
+    
+}
+.Future{
+    color: #F8F8F8;
+
+font-family: "Work Sans";
+font-size: 45px;
+}
+.future-description{
+    color: #FFF;
+
+font-size: 16px;
+margin-top: 16px;
+
+}
+.email{
+    margin-top: 16px;
+
+}
+.phone-number{
+    margin-top: 16px;
+}
+.social-icon{
+    margin-top: 16px;
+    display: flex;
+    
+    
+}
+.social-icon img{
+    padding-right: 8px;
+}
+.subscribe{
+    color: #FFF;
+font-family: "Work Sans";
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-column input{
+    width: 325px;
+height: 64px;
+margin-top: 30px;
+padding: 4px;
+
+}
+.footer-column input,
+input::placeholder {
+    font: 15px sans-serif;
+}
+.btn-subscribe{
+    color: #f15b22;
+    background-color: white;
+    width: 170.106px;
+height: 64px;
+
+color: #F15B22;
+font-size: 20px;
+border-radius: 5px;
+margin-top: 18px;
+}
